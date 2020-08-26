@@ -31,7 +31,7 @@ export class MapComponent implements OnInit {
   ngOnInit(): void {
       this.initMap();
       
-    this.markerService.makeCapitalMarkers(this.map);
+    this.markerService.makeCapitalMarker(this.map);
   }
 
   private initMap(): void {
